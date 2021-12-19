@@ -1,0 +1,12 @@
+{
+  "extends": "@sondr3/tsconfig",
+  "compilerOptions": {
+    "lib": ["esnext", "DOM", "DOM.Iterable"],
+    "module": "CommonJS",
+    "target": "ES2016",
+    "outDir": "dist",
+    "declaration": true
+  },
+  "include": ["lib/**/*"],
+  "exclude": ["node_modules/"]
+}
